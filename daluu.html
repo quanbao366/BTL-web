@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đã lưu | Facebook</title>
+    <link rel="shortcut icon" href="facebook/Logo.png">
+    <link rel="stylesheet" href="daluu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a href="index.html"><img src="facebook/Logo.png"></a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm trên Facebook">
+            </div>
+        </div>
+        <div class="center">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="banbe.html"><i class="fa-solid fa-user-group"></i></a>
+            <a href="video.html"><i class="fa-brands fa-square-youtube"></i></a>
+            <a href="marketplace.html"><i class="fa-solid fa-store"></i></a>
+            <a href="nhom.html"><i class="fa-solid fa-users-rectangle"></i></a>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-list-ul"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img src="facebook/profile.jpg" class="profile-pic" onclick="openCard()">
+            <div class="card-menu-wrap" id="cardWrap">
+                <div class="card-menu">
+                    <div class="profile-menu">
+                        <img src="facebook/profile.jpg">
+                        <p>Quân Bảo</p>
+                    </div>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/setting.jpg">
+                        <p>Cài đặt & quyền riêng tư</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/qmark.jpg">
+                        <p>Trợ giúp & hỗ trợ</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/moon.png">
+                        <p>Màn hình & trợ năng</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/exclamation_mark.png">
+                        <p>Đóng góp ý kiến</p>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/logout.png">
+                        <p>Đăng xuất</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <div class="icon">
+                <h2>Đã lưu</h2>
+                <img src="facebook/setting.jpg">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-bookmark"></i>
+                <p>Mục đã lưu</p>
+            </div>
+            <hr>
+            <p>Bộ sưu tập của tôi</p>
+            <div class="saved">
+                <img src="facebook/shortcuts_1.png">
+                <p>Games</p>
+            </div>
+            <div class="saved">
+                <img src="facebook/shortcuts_3.webp">
+                <p>Foods</p>
+            </div>
+            <div class="saved">
+                <img src="facebook/music.jpg">
+                <p>Nhạc của tui</p>
+            </div>
+            <div class="saved">
+                <img src="facebook/shortcuts_4.png">
+                <p>Để xem sau</p>
+            </div>
+            <div class="new">
+                <i class="fa-solid fa-plus"></i>
+                <p>Tạo bộ sưu tập mới</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="text">
+                <p>Tất cả</p>
+                <a href=""><i class="fa-solid fa-sliders"></i></a>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="facebook/save-1.jpg">
+                </div>
+                <div class="in">
+                    <h3>AMONG US</h3>
+                    <p style="margin: 10px 10px;">Liên kết <i class="fa-solid fa-circle"></i> Đã lưu vào Games</p>
+                    <div class="profile">
+                        <img src="facebook/profile-1.jpg">
+                        <p>Đã lưu từ <b>bài viết của Games Online hấp dẫn</b></p>
+                    </div>
+                    <div class="button">
+                        <p>Thêm vào bộ sưu tập</p>
+                        <i class="fa-solid fa-share"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                <div class="img">
+                    <img src="facebook/music-1.jpg">
+                </div>                 
+                <div class="in">
+                    <h3>Gặp lại năm ta 60</h3>
+                    <p style="margin: 10px 10px;">Liên kết <i class="fa-solid fa-circle"></i> Đã lưu vào Nhạc của tui</p>
+                    <div class="profile">
+                        <img src="facebook/profile-2.jpg">
+                        <p>Đã lưu từ <b>bài viết của HTV2 vie channel</b></p>
+                    </div>
+                    <div class="button">
+                        <p>Thêm vào bộ sưu tập</p>
+                        <i class="fa-solid fa-share"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                <div class="img">
+                    <img src="facebook/save-2.jpg">
+                </div>                 
+                <div class="in">
+                    <h3>Tom & Jerry</h3>
+                    <p style="margin: 10px;">Liên kết <i class="fa-solid fa-circle"></i> Đã lưu vào Để xem sau</p>
+                    <div class="profile">
+                        <img src="facebook/profile-3.jpg">
+                        <p>Đã lưu từ <b>bài viết của Cartoon Network</b></p>
+                    </div>
+                    <div class="button">
+                        <p>Thêm vào bộ sưu tập</p>
+                        <i class="fa-solid fa-share"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                <div class="img">
+                    <img src="facebook/save-3.jpg">
+                </div>                 
+                <div class="in">
+                    <h3>Healthy lifestyle</h3>
+                    <p style="margin: 10px;">Liên kết <i class="fa-solid fa-circle"></i> Đã lưu vào Foods</p>
+                    <div class="profile">
+                        <img src="facebook/friend-2.jpg">
+                        <p>Đã lưu từ <b>bài viết của Sam</b></p>
+                    </div>
+                    <div class="button">
+                        <p>Thêm vào bộ sưu tập</p>
+                        <i class="fa-solid fa-share"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                <div class="img">
+                    <img src="facebook/save-4.jpg">
+                </div>                 
+                <div class="in">
+                    <h3>Bóng phù hoa</h3>
+                    <p style="margin: 10px;">Liên kết <i class="fa-solid fa-circle"></i> Đã lưu vào Nhạc của tui</p>
+                    <div class="profile">
+                        <img src="facebook/profile-4.png">
+                        <p>Đã lưu từ <b>bài viết của Nhạc hay</b></p>
+                    </div>
+                    <div class="button">
+                        <p>Thêm vào bộ sưu tập</p>
+                        <i class="fa-solid fa-share"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="facebook.js"></script>
+</body>
+</html>

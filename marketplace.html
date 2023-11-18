@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marketplace | Facebook</title>
+    <link rel="stylesheet" href="marketplace.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a href="index.html"><img src="facebook/Logo.png"></a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm trên Facebook">
+            </div>
+        </div>
+        <div class="center">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="banbe.html"><i class="fa-solid fa-user-group"></i></a>
+            <a href="video.html"><i class="fa-brands fa-square-youtube"></i></a>
+            <a href="marketplace.html"><i class="fa-solid fa-store"></i></a>
+            <a href="nhom.html"><i class="fa-solid fa-users-rectangle"></i></a>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-list-ul"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img src="facebook/profile.jpg" class="profile-pic" onclick="openCard()">
+            <div class="card-menu-wrap" id="cardWrap">
+                <div class="card-menu">
+                    <div class="profile-menu">
+                        <img src="facebook/profile.jpg">
+                        <p>Quân Bảo</p>
+                    </div>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/setting.jpg">
+                        <p>Cài đặt & quyền riêng tư</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/qmark.jpg">
+                        <p>Trợ giúp & hỗ trợ</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/moon.png">
+                        <p>Màn hình & trợ năng</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/exclamation_mark.png">
+                        <p>Đóng góp ý kiến</p>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/logout.png">
+                        <p>Đăng xuất</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <div class="stay">
+            <div class="icon">
+                <h2>Marketplace</h2>
+                <img src="facebook/setting.jpg">
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm trên Marketplace">
+            </div>
+            </div>
+            <hr>
+            <div class="move">
+            <div class="icon">
+                <i class="fa-solid fa-store"></i>
+                <p>Lướt xem tất cả</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-bell"></i>
+                <p>Thông báo</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Hộp thư</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>Đang mua</p>
+                <span>></span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-tag"></i>
+                <p>Bán hang</p>
+                <span>></span>
+            </div>
+            <div class="new">
+                <i class="fa-solid fa-plus"></i>
+                <p>Tạo bài niêm yết mới</p>
+            </div>
+            <hr>
+            <h3>Bộ lọc</h3>
+            <a href="">Thành phố Hồ Chí Minh <i class="fa-solid fa-circle"></i> Trong vòng 65km</a>
+            <hr>
+            <h3>Hạng mục</h3>
+            <div class="icon">
+                <i class="fa-solid fa-car"></i>
+                <p>Xe cộ</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-house-user"></i>
+                <p>Tài sản cho thuê</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-house-user"></i>
+                <p>Bán nhà</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-wrench"></i>
+                <p>Dụng cụ sữa chữa nhà cửa</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-heart"></i>
+                <p>Gia đình</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-camera"></i>
+                <p>Giải trí</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-fan"></i>
+                <p>Làm vườn</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-music"></i>
+                <p>Nhạc cụ</p>
+            </div><div class="icon">
+                <i class="fa-solid fa-tag"></i>
+                <p>Rao vặt</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-tag"></i>
+                <p>Sản phẩm miễn phí</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-person-walking"></i>
+                <p>Sản phẩm thể thao</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-pen"></i>
+                <p>Sở thích</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-pen-nib"></i>
+                <p>Văn phòng phẩm</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-gamepad"></i>
+                <p>Đồ chơi & trò chơi</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-paw"></i>
+                <p>Đồ chơi cho thú cưng</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-house"></i>
+                <p>Đồ gia dụng</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-shirt"></i>
+                <p>Đồ may mặc</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-mobile"></i>
+                <p>Đồ điện tử</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-users"></i>
+                <p>Nhóm mua và bán</p>
+            </div>
+        </div>
+    </div>
+        <div class="right">
+            <div class="text">
+                <p>Lựa chọn hôm nay</p>
+                <a href=""><i class="fa-solid fa-location-dot"></i>Hồ Chí Minh·65 km</a>
+            </div>
+            <div class="top-box">
+                <div class="item">
+                    <img src="facebook/item-1.jpg">
+                    <p>300,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+                <div class="item">
+                    <img src="facebook/item-2.jpg">
+                    <p>90,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+                <div class="item">
+                    <img src="facebook/item-3.jpg">
+                    <p>1,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="top-box">
+                <div class="item">
+                    <img src="facebook/item-4.jpg">
+                    <p>49,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+                <div class="item">
+                    <img src="facebook/item-5.jpg">
+                    <p>39,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+                <div class="item">
+                    <img src="facebook/item-6.jpg">
+                    <p>99,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="top-box">
+                <div class="item">
+                    <img src="facebook/item-7.jpg">               
+                    <p>3,900,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+                <div class="item">
+                    <img src="facebook/item-8.jpg">
+                    <p>100,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+                <div class="item">
+                    <img src="facebook/item-9.jpg">                   
+                    <p>150,000đ</p>
+                    <p class="place">TP.HCM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="facebook.js"></script>
+</body>
+</html>

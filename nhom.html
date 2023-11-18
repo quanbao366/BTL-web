@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm | Facebook</title>
+    <link rel="shortcut icon" href="facebook/Logo.png">
+    <link rel="stylesheet" href="nhom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a href="index.html"><img src="facebook/Logo.png"></a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm trên Facebook">
+            </div>
+        </div>
+        <div class="center">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="banbe.html"><i class="fa-solid fa-user-group"></i></a>
+            <a href="video.html"><i class="fa-brands fa-square-youtube"></i></a>
+            <a href="marketplace.html"><i class="fa-solid fa-store"></i></a>
+            <a href="nhom.html"><i class="fa-solid fa-users-rectangle"></i></a>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-list-ul"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img src="facebook/profile.jpg" class="profile-pic" onclick="openCard()">
+            <div class="card-menu-wrap" id="cardWrap">
+                <div class="card-menu">
+                    <div class="profile-menu">
+                        <img src="facebook/profile.jpg">
+                        <p>Quân Bảo</p>
+                    </div>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/setting.jpg">
+                        <p>Cài đặt & quyền riêng tư</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/qmark.jpg">
+                        <p>Trợ giúp & hỗ trợ</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/moon.png">
+                        <p>Màn hình & trợ năng</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/exclamation_mark.png">
+                        <p>Đóng góp ý kiến</p>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/logout.png">
+                        <p>Đăng xuất</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <div class="icon">
+                <h2>Nhóm</h2>
+                <img src="facebook/setting.jpg">
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm Nhóm">
+            </div>
+            <hr>
+            <div class="icon">
+                <i class="fa-solid fa-table-list"></i>
+                <p>Bảng feed của bạn</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-compass"></i>
+                <p>Khám phá</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-users"></i>
+                <p>Nhóm của bạn</p>
+            </div>
+            <div class="new">
+                <i class="fa-solid fa-plus"></i>
+                <p>Tạo nhóm mới</p>
+            </div>
+            <hr>
+            <div class="text">
+                <p>Nhóm bạn đã tham gia</p>
+                <a href="">Xem tất cả</a>
+            </div>
+            <div class="group">
+                <img src="facebook/group_1.jpg">
+                <p>Studies</p>
+            </div>
+            <div class="group">
+                <img src="facebook/group_2.jpg">
+                <p>UTC2 Zone</p>
+            </div>
+            <div class="group">
+                <img src="facebook/group_3.png">
+                <p>Games</p>
+            </div>
+        </div>
+        <div class="center">
+            <div class="group-post">
+                <div class="group-post-top">
+                    <div class="img-name">
+                        <img src="facebook/group_1.jpg">
+                        <div class="group-name">
+                            <p class="group-name">
+                                Studies
+                            </p>
+                            <p class="time">23h.<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <img src="facebook/group-post-1.jpg">
+                <div class="info">
+                    <div class="emoji_img">
+                        <img src="facebook/like.png">
+                        <img src="facebook/haha.png">
+                        <img src="facebook/heart.png">
+                        <p>245</p>
+                    </div>
+                    <div class="comment">
+                        <p>421 bình luận</p>
+                        <p>1.3K lượt chia sẻ</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="like">
+                    <div class="like_icon">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <p>Thích</p>
+                    </div>
+                    <div class="like_icon">
+                        <i class="fa-regular fa-comment"></i>
+                        <p>Bình luận</p>
+                    </div>
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Chia sẻ</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment_warpper">
+                    <img src="facebook/profile.jpg">
+                    <div class="circle"></div>
+                    <div class="comment_search">
+                        <input type="text" placeholder="Viết một bình luận">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="group-post">
+                <div class="group-post-top">
+                    <div class="img-name">
+                        <img src="facebook/shortcuts_1.png">
+                        <div class="group-name">
+                            <p class="group-name">
+                                Games
+                            </p>
+                            <p class="time">11h.<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <img src="facebook/group-post-3.jpg">
+                <div class="info">
+                    <div class="emoji_img">
+                        <img src="facebook/like.png">
+                        <img src="facebook/haha.png">
+                        <img src="facebook/heart.png">
+                        <p>245</p>
+                    </div>
+                    <div class="comment">
+                        <p>421 bình luận</p>
+                        <p>1.3K lượt chia sẻ</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="like">
+                    <div class="like_icon">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <p>Thích</p>
+                    </div>
+                    <div class="like_icon">
+                        <i class="fa-regular fa-comment"></i>
+                        <p>Bình luận</p>
+                    </div>
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Chia sẻ</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment_warpper">
+                    <img src="facebook/profile.jpg">
+                    <div class="circle"></div>
+                    <div class="comment_search">
+                        <input type="text" placeholder="Viết một bình luận">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="group-post">
+                <div class="group-post-top">
+                    <div class="img-name">
+                        <img src="facebook/group_2.jpg">
+                        <div class="group-name">
+                            <p class="group-name">
+                                UTC2
+                            </p>
+                            <p class="time">2h.<i class="fa-solid fa-earth-americas"></i></p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <img src="facebook/group-post-2.jpg">
+                <div class="info">
+                    <div class="emoji_img">
+                        <img src="facebook/like.png">
+                        <img src="facebook/haha.png">
+                        <img src="facebook/heart.png">
+                        <p>245</p>
+                    </div>
+                    <div class="comment">
+                        <p>421 bình luận</p>
+                        <p>1.3K lượt chia sẻ</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="like">
+                    <div class="like_icon">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <p>Thích</p>
+                    </div>
+                    <div class="like_icon">
+                        <i class="fa-regular fa-comment"></i>
+                        <p>Bình luận</p>
+                    </div>
+                    <div class="like_icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Chia sẻ</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment_warpper">
+                    <img src="facebook/profile.jpg">
+                    <div class="circle"></div>
+                    <div class="comment_search">
+                        <input type="text" placeholder="Viết một bình luận">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box">
+                <p>Đoạn chat mà bạn nên tham gia</p>
+                <div class="users">
+                    <img src="facebook/group_4.jpg">
+                    <p>Phân hiệu trường ĐH GTVT-tpHCM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="facebook.js"></script>
+</body>
+</html>

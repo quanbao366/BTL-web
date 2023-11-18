@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #f2f2f2;
+    color: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+nav .left .logo img{
+    width: 40px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+nav .left .search_bar{
+    width: 250px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 15px;
+}
+nav .left .search_bar i{
+    line-height: 40px;
+    font-size: 19px;
+    color: #919191;
+    margin-right: 5px;
+}
+nav .left .search_bar input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 200px;
+}
+nav .center{
+    position: relative;
+    right: 45px;
+}
+nav .center i{
+    margin: 0 45px 0 45px;
+    font-size: 22px;
+    color: #252525;
+}
+nav .center i:hover{
+    color: #45abff;
+    cursor: pointer;
+}
+nav .right{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+nav .right i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #efefef;
+    line-height: 35px;
+    padding-left: 8px;
+    font-size: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+nav .right img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    line-height: 45px;
+    cursor: pointer;
+}
+.card-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.open-menu{
+    max-height: 400px;
+}
+.card-menu{
+    width: 330px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 14px;
+}
+.profile-menu{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 12px 0;
+    margin-bottom: 15px;
+}
+.profile-menu p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 10px;
+}
+.card-menu-item{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    padding: 5px 0;
+    color: #252525;
+}
+.card-menu-item:hover{
+    background: #efefef;
+}
+.card-menu-item p{
+    width: 100%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-menu-item span{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-menu-item img{
+    width: 40px;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+/* -------------------------main------------------------ */
+.main{
+    display: flex;
+    margin-top: 60px;
+}
+/* ---------------------------main left------------------------ */
+.main .left{
+    width: 24%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+    position: fixed;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 5px 0;
+    color: #252525;
+    cursor: pointer;
+}
+.icon:hover{
+    background: #efefef;
+}
+.icon img{
+    width: 40px;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-left: 185px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 20px;
+    background: #e5e5e5;
+    padding: 8px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.left p{
+    margin: 10px 10px;
+    font-weight: 520;
+}
+.main .left hr{
+    border: 0;
+    background: #ccc;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+}
+.main .left .new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #45abff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 30px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background: #e1e9f7;
+    cursor: pointer;
+}
+.main .left .new:hover{
+    background: #aac9ff;
+}
+.main .left .saved{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.main .left .saved img{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+.main .left .saved:hover{
+    background: #efefef;
+    border-radius: 7px;
+}
+/* ---------------------------main right--------------------------- */
+.main .right{
+    width: 75%;
+    margin-left: 25%;
+    height: auto;
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+}
+.main .right .text{
+    display: flex;
+    justify-content: space-between;
+}
+.main .right .text p{
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 8px;
+}
+.main .right .text a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 35px;
+    background: #d4d3d3;
+    border-radius: 8px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 8px;
+}
+.main .right .content .img img{
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.main .right .content .in i{
+    justify-content: center;
+    font-size: 10px;
+}
+.main .right .content .in h3{
+    cursor: pointer;
+    margin: 10px;
+}
+.main .right .content .in h3:hover{
+    text-decoration: underline;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.main .right .content .in .button p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 30px;
+    background: #d4d3d3;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.main .right .content .in .button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    background: #d4d3d3;
+    border-radius: 7px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}

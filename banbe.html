@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bạn bè | Facebook</title>
+    <link rel="shortcut icon" href="facebook/Logo.png">
+    <link rel="stylesheet" href="banbe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a href="index.html"><img src="facebook/Logo.png"></a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm trên Facebook">
+            </div>
+        </div>
+        <div class="center">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="banbe.html"><i class="fa-solid fa-user-group"></i></a>
+            <a href="video.html"><i class="fa-brands fa-square-youtube"></i></a>
+            <a href="marketplace.html"><i class="fa-solid fa-store"></i></a>
+            <a href="nhom.html"><i class="fa-solid fa-users-rectangle"></i></a>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-list-ul"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img src="facebook/profile.jpg" class="profile-pic" onclick="openCard()">
+            <div class="card-menu-wrap" id="cardWrap">
+                <div class="card-menu">
+                    <div class="profile-menu">
+                        <img src="facebook/profile.jpg">
+                        <p>Quân Bảo</p>
+                    </div>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/setting.jpg">
+                        <p>Cài đặt & quyền riêng tư</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/qmark.jpg">
+                        <p>Trợ giúp & hỗ trợ</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/moon.png">
+                        <p>Màn hình & trợ năng</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/exclamation_mark.png">
+                        <p>Đóng góp ý kiến</p>
+                    </a>
+                    <a href="" class="card-menu-item">
+                        <img src="facebook/logout.png">
+                        <p>Đăng xuất</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <div class="icon">
+                <h2>Bạn bè</h2>
+                <img src="facebook/setting.jpg">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-group"></i>
+                <p>Trang chủ</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-minus"></i>
+                <p>Lời mời kết bạn</p>
+                <span>></span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-plus"></i>
+                <p>Gợi ý</p>
+                <span>></span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-check"></i>
+                <p>Tất cả bạn bè</p>
+                <span>></span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-gift"></i>
+                <p>Sinh nhật</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user-check"></i>
+                <p>Danh sách tùy chỉnh</p>
+                <span>></span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="text">
+                <p>Lời mời kết bạn</p>
+                <a href="">Xem tất cả</a>
+            </div>
+            <div class="top-box">
+                <div class="friends">
+                    <img src="facebook/friend-1.jpg">
+                    <div class="invite">
+                        <p id="name">William</p>
+                        <p id="accept" onclick="erase()">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend 11.jpg">
+                    <div class="invite">
+                        <p id="name">Will</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-8.jpg">
+                    <div class="invite">
+                        <p id="name">Olliver</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-3.jpg">
+                    <div class="invite">
+                        <p id="name">Wendy</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-6.jpg">
+                    <div class="invite">
+                        <p id="name">Susan</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-box">
+                <div class="friends">
+                    <img src="facebook/friend-13.jpg">
+                    <div class="invite">
+                        <p id="name">Sakura</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-7.jpg">
+                    <div class="invite">
+                        <p id="name">Lucy</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-2.jpg">
+                    <div class="invite">
+                        <p id="name">Sam</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-9.jpg">
+                    <div class="invite">
+                        <p id="name">Herman</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-14.jpg">
+                    <div class="invite">
+                        <p id="name">Elizabeth</p>
+                        <p id="accept">Xác nhận</p>
+                        <p id="delete">Xóa</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text">
+                <p>Những người bạn có thể biết</p>
+                <a href="">Xem tất cả</a>
+            </div>
+            <div class="top-box">
+                <div class="friends">
+                    <img src="facebook/friend-4.jpg">
+                    <div class="invite">
+                        <p id="name">Jonas</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-10.jpg">
+                    <div class="invite">
+                        <p id="name">Chris</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-15.jpg">
+                    <div class="invite">
+                        <p id="name">Ollivia</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-12.jpg">
+                    <div class="invite">
+                        <p id="name">Mary</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-5.jpg">
+                    <div class="invite">
+                        <p id="name">John</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-box">
+                <div class="friends">
+                    <img src="facebook/friend-16.jpg">
+                    <div class="invite">
+                        <p id="name">Mona</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-17.jpg">
+                    <div class="invite">
+                        <p id="name">Tim</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-18.jpg">
+                    <div class="invite">
+                        <p id="name">Max</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-19.jpg">
+                    <div class="invite">
+                        <p id="name">Andre</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <img src="facebook/friend-20.jpg">
+                    <div class="invite">
+                        <p id="name">Jennie</p>
+                        <p id="accept">Thêm bạn bè</p>
+                        <p id="delete">Xóa, gỡ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="facebook.js"></script>
+</body>
+</html>
